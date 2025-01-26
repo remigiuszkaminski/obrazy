@@ -1,0 +1,6 @@
+Patrząc na te trzy kolory z palety RGB i używając wzoru na wartość szarości możemy obliczyć ich wartości (0.299 * R + 0.587 * G + 0.114 * B):
+1. R 200 G 200 B 25 => w. szarosci = 180.05
+2. R 200 G 25 B 200 => w. szarosci = 97.275
+3. R 25 G 200 B 200 => w. szarosci = 147.675
+
+czyli patrząc na te wagi najjaśniejszy jest kolor numer 1 po konwersji.
