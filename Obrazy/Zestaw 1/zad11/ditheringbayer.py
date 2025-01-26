@@ -52,7 +52,9 @@ def bayern_dith_4wartosci(obraz):
 
     for y in range(wys):
         for x in range(szer):
-            piksel = min(wartosci, key=lambda z: abs(z - obraz_wyj[y, x]))
+            prog = bayer_matrix[y % macierz_rozm, x % macierz_rozm] / maks * 255  
+            piksel = obraz_wyj[y, x] + (prog - 127.5)
+            piksel = min(wartosci, key=lambda z: abs(z - piksel))
             obraz_wyj[y, x] = piksel
     
     return Image.fromarray(obraz_wyj.astype(np.uint8))

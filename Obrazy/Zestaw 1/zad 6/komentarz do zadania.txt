@@ -1,2 +1,0 @@
-Jeśli chodzi o przykłady a i c wykonałem je po prostu funkcją wbudowaną w program imageJ, na początek podzieliłem kanały następnie każdy został z osobna zeskalowany i na koniec nastąpił ich merge.
-Jeśli natomiast chodzi o przykłady b oraz d zrobiłem je uzywajac kodu w pythonie, zostaly podzielone na kanaly i kazdy kanal byl robiony jednoczesnie potem je zlaczylem.
